@@ -1,0 +1,34 @@
+determiner(a) -> car -> is(x)  -> fast
+determiner(a) -> car -> has(x) -> tyres
+determiner(a) -> car -> has(x) -> wheels
+determiner(a) -> car -> has(x) -> windows
+determiner(a) -> car -> has(x) -> engine
+Toyota -> is(x) -> determiner(a) -> car -> brand
+BMW -> is(x) -> determiner(a) -> car -> brand
+Audi -> is(x) -> determiner(a) -> car -> brand
+Volvo -> is(x) -> determiner(a) -> car -> brand
+Hyundai -> is(x) -> determiner(a) -> car -> brand
+Subaru -> is(x) -> determiner(a) -> car -> brand
+Mercedes -> is(x) -> determiner(a) -> car -> brand
+Land -> Rover -> is(x) -> determiner(a) -> car -> brand
+Suzuki -> is(x) -> determiner(a) -> car -> brand
+Seat -> is(x) -> determiner(a) -> car -> brand
+Peugeot -> is(x) -> determiner(a) -> car -> brand
+Jaguar -> is(x) -> determiner(a) -> car -> brand
+Toyota -> Camry -> is(x) -> determiner(a) -> car -> model
+Audi -> A3 -> is(x) -> determiner(a) -> car -> model
+Toyota -> is(x) -> determiner(a) -> car
+Volvo -> is(x) -> car
+Audi -> is(x) -> car
+Ford -> is(x) -> determiner(a) -> car -> brand
+Mazda -> is(x) -> determiner(a) -> car -> brand
+Lexus -> is(x) -> determiner(a) -> car -> brand
+toyota -> is(x) -> determiner(a) -> car
+bmw -> is(x) -> determiner(a) -> car
+Tim -> is(x) -> british
+Tim -> is(x) -> determiner(a) -> human
+cars -> are(x) -> determiner(a) -> type -> preposition(of) -> vehicle
+Ronaldo -> is(x) -> Portuguese
+determiner(a) -> truck -> is(x) -> determiner(a) -> type -> preposition(of) -> vehicle
+airplanes -> are(x) -> determiner(a) -> type -> preposition(of) -> vehicle
+is(x) -> Tim -> is(x) -> determiner(a) -> human
